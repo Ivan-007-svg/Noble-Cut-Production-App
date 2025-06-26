@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Noble Cut custom colors */
+:root {
+  --gold: #c5a253;
+}
+
+body {
+  background-color: black;
+  color: var(--gold);
+  font-family: 'Inter', sans-serif;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
